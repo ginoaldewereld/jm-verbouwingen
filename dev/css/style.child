@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_jmverbouwingen
+Theme URI: https://github.com/ginoaldewereld/jm-verbouwingen
+Description: a clean slate - jmverbouwingen child theme
+Version: 0.3.1
+Author: ginoaldewereld
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');
