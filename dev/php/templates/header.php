@@ -51,9 +51,17 @@
 				</svg>
 			</a>
 		</div>
-
-		<?php include 'includes/navigation.php'; ?>
-		
+    </div>
+    <div class="u-gridContainer">
+        <div class="u-gridRow">
+            <div class="u-gridCol5 relative">
+                &nbsp;
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" class="logo">
+            </div>
+            <div class="u-gridCol7">
+    		  <?php include 'includes/navigation.php'; ?>
+            </div>
+        </div>
 		<div class="Mob-contact-ico">
 			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0625393245">
 				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
@@ -68,4 +76,4 @@
 			</a>
 		</div><!-- header-contact -->
 	</div>
-  </div>
+</div>

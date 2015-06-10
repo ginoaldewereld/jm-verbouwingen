@@ -4,6 +4,9 @@
 // -> Main site header
 //
 // *************************************
+.Bot-Nav {
+  padding: 30px;
+}
 
 .Header {
   background-image: url("../img/img-header-bg.png");
@@ -75,4 +78,22 @@
 
 .Slider {
 	visibility: hidden;
+}
+
+.backgroundheader {
+  background-color: white;
+  opacity: 0.5;
+  height: 100px;
+  position: relative;
+  z-index: -1;
+}
+
+.relative {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  z-index: 100;
+  top: -4px;
 }
